@@ -1,0 +1,131 @@
+
+.hero-section {
+  position: relative;
+  background: url("/src/assets/images/bg-car.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow-x: clip;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.6);
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Booking Card Style */
+.booking-card {
+  background: #fff;
+  border-radius: 10px;
+  width: 95%;
+  max-width: 420px; /* slightly wider box */
+  margin-right: 60px; /* move right side */
+}
+
+/* Tabs */
+.tab-btn {
+  flex: 1;
+  padding: 12px 0;
+  border: none;
+  background: #f8f9fa;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.tab-btn.active {
+  background: #fff;
+  color: #000;
+  border-bottom: 2px solid #dc3545;
+}
+h1{
+  color: #fff;
+}
+
+/* Inputs */
+.input-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.form-control {
+  padding-right: 20px;
+  height: 50px;
+}
+
+.form-control-lg {
+  font-size: 1rem;
+  height: 56px !important;
+}
+
+/* Dropdown Button Style */
+.dropdown-btn {
+  background: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  color: #333;
+  transition: 0.3s;
+}
+
+.dropdown-btn:hover {
+  background: #f8f9fa;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f2f2f2;
+}
+
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .booking-card {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+  .hero-section {
+    text-align: center;
+    padding: 40px 10px;
+  }
+  .hero-section h1 {
+    font-size: 35px;
+    text-align: left;
+    margin-right: 10px;
+    padding: 0 10px;
+  }
+}
