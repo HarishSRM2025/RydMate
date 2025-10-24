@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Navbar1 from './components/Homepagecomponent/Navbar1'
 import Navbar2 from './components/Homepagecomponent/Navbar2'
 import FeaturesSection from './components/Homepagecomponent/FeaturesSection'
-import WhoWeAre from './components/Homepagecomponent/WhoWeare'
 import Carfleet1 from './components/Homepagecomponent/Carfleet1'
 // import OurServices from './components/Homepagecomponent/OurServices'
 import DealsOnBooking from './components/Homepagecomponent/DealsOnBooking'
@@ -12,6 +11,7 @@ import Footer from './components/Homepagecomponent/Footer'
 import BlogSection from './components/Homepagecomponent/BlogSection'
 import Service from './components/Homepagecomponent/Service'
 import HeroSection from './components/Homepagecomponent/HeroSection'
+import WhoWeAre from './components/Homepagecomponent/WhoWeAre'
 
 function App() {
  <style>
@@ -26,7 +26,7 @@ function App() {
      <Navbar2 />
      <HeroSection/>
      <FeaturesSection />
-     <WhoWeAre />
+     <WhoWeAre/>
      <Carfleet1 /><br /><br />
      <Service />
      <DealsOnBooking /><br /><br />
