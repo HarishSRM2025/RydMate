@@ -12,6 +12,8 @@ import BlogSection from './components/Homepagecomponent/BlogSection'
 import Service from './components/Homepagecomponent/Service'
 import HeroSection from './components/Homepagecomponent/HeroSection'
 import WhoWeAre from './components/Homepagecomponent/WhoWeAre'
+import TripCard from './components/Homepagecomponent/TripCard'
+import ChatCard from './components/Homepagecomponent/ChatCard'
 
 function App() {
  <style>
@@ -28,6 +30,8 @@ function App() {
      <FeaturesSection />
      <WhoWeAre/>
      <Carfleet1 /><br /><br />
+     <TripCard/>
+     <ChatCard/>
      <Service />
      <DealsOnBooking /><br /><br />
      <Testimonials /><br />
