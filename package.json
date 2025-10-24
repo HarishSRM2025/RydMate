@@ -1,7 +1,7 @@
 {
   "name": "rydmate",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,6 +16,7 @@
     "lucide-react": "^0.545.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
     "swiper": "^12.0.2"
   },
   "devDependencies": {
