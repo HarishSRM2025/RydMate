@@ -13,7 +13,7 @@ const DealsOnBooking = () => {
 
       {/* Content */}
       <div className="position-relative" style={{ zIndex: 2 }}>
-        <h3 className="fw-bold mb-2">Deals On Booking</h3>
+        <h3 className="fw-bold mb-2 text-light">Deals On Booking</h3>
         <div
           className="mx-auto mb-3"
           style={{
