@@ -49,8 +49,7 @@ const Testimonials = () => {
         style={{
           width: "70px",
           height: "5px",
-          background:
-            "linear-gradient(to right, #dc3545 33%, #fff 33%, #fff 66%, #dc3545 66%)",
+         
         }}
       ></div>
 
@@ -62,10 +61,10 @@ const Testimonials = () => {
         }}
         loop={true}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
-        spaceBetween={40}
+        spaceBetween={0}
         breakpoints={{
           0: { slidesPerView: 1 },
-          992: { slidesPerView: 2 },
+          992: { slidesPerView: 3},
         }}
         className="testimonial-slider"
       >

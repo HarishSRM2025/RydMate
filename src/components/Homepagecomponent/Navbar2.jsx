@@ -8,13 +8,11 @@ const Navbar2 = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark"
-      style={{ backgroundColor: "#1c2b39", padding: "0", height: "60px" }}
+      style={{position:"sticky",top:"0px", backgroundColor: "#1c2b39", padding: "0", height: "60px",zIndex:10 }}
     >
       <div className="container-fluid px-4">
-        {/* Navbar Brand (optional) */}
-        {/* <a href="#" className="navbar-brand fw-bold text-white">
-          Rydmate
-        </a> */}
+        
+      
 
         {/* Navbar Toggler (for mobile) */}
         <button
@@ -26,6 +24,11 @@ const Navbar2 = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
+        {/* Navbar Brand (optional) */}
+         <a href="#" className="navbar-brand fw-bold text-danger">
+          Rydmate
+        </a> 
 
         {/* Offcanvas Menu */}
         <div

@@ -1,8 +1,10 @@
 .testimonials-section {
-  background: #f8f9fa;
+  background: #ffffff;
   position: relative;
   overflow: hidden;
   overflow-x: clip;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .testimonial-card {
@@ -13,7 +15,7 @@
   transition: transform 0.3s;
   height: 100%;
   width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 h4{
   font-size: 30px;

@@ -26,31 +26,25 @@ const Footer = () => {
           </div>
 
           {/* Explore Links
-          <div className="col-md-2 mb-4">
-            <h5 className="fw-bold mb-3">Explore Links</h5>
-            <ul className="list-unstyled footer-links">
-              <li><i className="far fa-folder me-2"></i>Coupons</li>
-              <li><i className="far fa-folder me-2"></i>Sitemap</li>
-              <li><i className="far fa-folder me-2"></i>Cancellation</li>
-              <li><i className="far fa-folder me-2"></i>Terms</li>
-              <li><i className="far fa-folder me-2"></i>Privacy Policy</li>
-              <li><i className="far fa-folder me-2"></i>Contact Us</li>
-            </ul>
-          </div> */}
+           */}
 
           {/* Quick Links */}
           <div className="col-md-2 mb-4">
             <h5 className="fw-bold mb-3">Quick Links</h5>
             <ul className="list-unstyled footer-links">
-              <li>🔗About Us</li>
-              <li>🔗Services</li>
-              <li>🔗Our Fleets</li>
-              <li>🔗Blog</li>
-              <li>🔗Pages</li>
-              <li>🔗Contact Us</li>
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Our Fleets</li>
+              <li>Blog</li>
+              <li>Pages</li>
+              <li>Contact Us</li>
             </ul>
           </div>
 
+          {/* <div className="col-md-2 mb-4">
+            <h5 className="fw-bold mb-3">Location</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.194217444581!2d78.33586697570455!3d10.9486969559912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa4862a895fc7b%3A0x6e386bd33fe2bc2c!2sLalapettai%2C%20Tamil%20Nadu%20639105!5e0!3m2!1sen!2sin!4v1761298078464!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div> */}
           {/* Contact Info */}
           <div className="col-md-4 mb-4">
             <h5 className="fw-bold mb-3">Contact Info</h5>
@@ -71,13 +65,6 @@ const Footer = () => {
             &copy; Copyrights 2018 <span className="text-danger">Prime Cab</span>. All Rights
             Reserved.
           </p>
-          {/* <div className="d-flex gap-2 mt-3 mt-md-0">
-            <img src="your-path/visa.png" alt="Visa" />
-            <img src="your-path/mastercard.png" alt="MasterCard" />
-            <img src="your-path/paypal.png" alt="PayPal" />
-            <img src="your-path/discover.png" alt="Discover" />
-            <img src="your-path/jcb.png" alt="JCB" />
-          </div> */}
         </div>
       </div>
     </footer>

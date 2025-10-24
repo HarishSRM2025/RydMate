@@ -1,30 +1,28 @@
 import React from "react";
 import "./FeaturesSection.css";
-import offer5 from '../../assets/images/offer-icon5.png';
-import offer2 from '../../assets/images/offer-icon2.png';
-import offer3 from '../../assets/images/offer-icon3.png';
-import offer4 from '../../assets/images/offer-icon4.png';
-import offer6 from '../../assets/images/offer6.png';
-import rupee from '../../assets/images/rupee.png';
+import { FaIndianRupeeSign } from "react-icons/fa6";
+import { FaHeadset } from "react-icons/fa6";
+import { IoHome } from "react-icons/io5";
+import { FaBookmark } from "react-icons/fa";
 const FeaturesSection = () => {
   const features = [
     {
-      icon: rupee,
+      icon: <FaIndianRupeeSign />,
       title: "Best Price Guaranteed",
       desc: "A more recently with desktop softy like aldus page maker.",
     },
     {
-      icon: offer2,
+      icon: <FaHeadset />,
       title: "24/7 Customer Care",
       desc: "A more recently with desktop softy like aldus page maker.",
     },
     {
-      icon: offer3,
+      icon: <IoHome />,
       title: "Home Pickups",
       desc: "A more recently with desktop softy like aldus page maker.",
     },
     {
-      icon: offer4,
+      icon: <FaBookmark />,
       title: "Easy Bookings",
       desc: "A more recently with desktop softy like aldus page maker.",
     },
@@ -36,11 +34,7 @@ const FeaturesSection = () => {
         {features.map((feature, index) => (
           <div className="col-lg-3 col-md-6 col-sm-12 mb-4" key={index}>
             <div className="feature-item text-center p-3">
-              <img
-                src={feature.icon}
-                alt={feature.title}
-                className="feature-icon mb-3"
-              />
+              <span className="Features-Icon">{feature.icon}</span>
               <h5 className="fw-semibold">{feature.title}</h5>
               <p className="text-muted">{feature.desc}</p>
             </div>

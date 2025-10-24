@@ -1,27 +1,3 @@
-/* 
-@media (max-width: 991px) {
-  .row.align-items-center {
-    flex-direction: column !important;
-    text-align: left !important;
-  }
-
-  .row.align-items-center .col-md-3,
-  .row.align-items-center .col-md-2 {
-    justify-content: flex-start !important;
-    width: 100%;
-  }
-
-  /* Center the logo only on mobile/tablet */
-  /* .row.align-items-center .col-md-3:first-child {
-    justify-content: center !important;
-    text-align: center !important;
-  }
-
-  .row.align-items-center h3 {
-    margin-bottom: 1rem;
-  } */
-
- 
 
 
  /* Wrapper that handles collapse */
@@ -33,7 +9,7 @@
 
 /* Show full navbar */
 .expanded-navbar {
-  max-height: 500px; /* Adjust as needed */
+  max-height: 400px; /* Adjust as needed */
 }
 
 /* Show only logo */
@@ -54,7 +30,7 @@
   .navbar-wrapper .col-md-3,
   .navbar-wrapper .col-md-2 {
     width: 100% !important;
-    justify-content: flex-start !important;
+    justify-content: center !important;
     text-align: left !important;
     margin-bottom: 1rem;
   }

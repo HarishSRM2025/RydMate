@@ -1,6 +1,3 @@
-
-
-
 import React, { useEffect, useState } from "react";
 import "./WhoWeAre.css";
 import welcome from "../../assets/images/welcome-img.jpg";

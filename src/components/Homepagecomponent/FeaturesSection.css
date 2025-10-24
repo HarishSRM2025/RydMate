@@ -13,14 +13,9 @@
   transform: translateY(-5px);
 }
 
-.feature-icon {
-  width: 25%;
-  height: 25%;
-  object-fit: contain;
-  margin: 0 auto;
-  display: block;
-  filter: brightness(0) saturate(100%) invert(41%) sepia(86%) saturate(3536%)
-    hue-rotate(339deg) brightness(97%) contrast(94%);
+.Features-Icon {
+  font-size: 40px;
+  color: rgb(214, 59, 80);
 }
 
 .features-section h5 {
@@ -37,10 +32,7 @@
 }
 
 @media (max-width: 768px) {
-  .feature-icon {
-    width: 80px;
-    height: 60px;
-  }
+
 
   .features-section h5 {
     font-size: 20px;
