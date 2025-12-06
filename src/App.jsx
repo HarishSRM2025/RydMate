@@ -30,7 +30,7 @@ function App() {
      <FeaturesSection />
      <WhoWeAre/>
      <Carfleet1 /><br /><br />
-     <TripCard/>
+     {/* <TripCard/> */}
      <ChatCard/>
      <Service />
      <DealsOnBooking /><br /><br />

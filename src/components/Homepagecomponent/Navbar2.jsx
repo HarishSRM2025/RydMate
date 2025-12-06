@@ -101,7 +101,7 @@ const Navbar2 = () => {
             whiteSpace: "nowrap",
           }}
         >
-          Book Now <i className="bi bi-arrow-right ms-2"></i>
+          <a href="https://rydmate-user.netlify.app/" style={{color:"#fff",textDecoration:"none"}}>Join us <i className="bi bi-arrow-right ms-2"></i></a> 
         </button>
       </div>
 

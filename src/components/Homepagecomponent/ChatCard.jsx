@@ -89,8 +89,8 @@ const ChatCard = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 onClick={(e) => e.stopPropagation()}
               />
-              <button onClick={(e) => { e.stopPropagation(); handleSend(); }}>
-                <FaPaperPlane />
+              <button >
+                <FaPaperPlane  onClick={(e) => { e.stopPropagation(); handleSend(); }}/>
               </button>
             </div>
           </div>
