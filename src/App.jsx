@@ -16,29 +16,29 @@ import TripCard from './components/Homepagecomponent/TripCard'
 import ChatCard from './components/Homepagecomponent/ChatCard'
 
 function App() {
- <style>
-  .body{
-    
-  }
- </style>
+  <style>
+    .body{
+
+    }
+  </style>
 
   return (
     <>
-     <Navbar1 />
-     <Navbar2 />
-     <HeroSection/>
-     <FeaturesSection />
-     <WhoWeAre/>
-     <Carfleet1 /><br /><br />
-     {/* <TripCard/> */}
-     <ChatCard/>
-     <Service />
-     <DealsOnBooking /><br /><br />
-     <Testimonials /><br />
-     <BlogSection />
-     <Footer />
-     
-    
+      <Navbar1 />
+      <Navbar2 />
+      <HeroSection />
+      <FeaturesSection />
+      <WhoWeAre />
+      <Carfleet1 /><br /><br />
+      {/* <TripCard/> */}
+      <ChatCard />
+      <Service />
+      <DealsOnBooking /><br /><br />
+      <Testimonials /><br />
+      <BlogSection />
+      <Footer />
+
+
     </>
   )
 }

@@ -45,7 +45,7 @@ const WhoWeAre = () => {
         {/* Left Side */}
         <div className="col-lg-6 col-md-12 text-center text-lg-start mb-4 mb-lg-0">
           <h2 className="fw-bold mb-6">Who We Are ?</h2>
-            
+
           <h6 className="text">
             Lorem Ipsum passages, and more recently with desktop publishing
             software like Aldus PageMaker including versions of all the Lorem
@@ -53,7 +53,7 @@ const WhoWeAre = () => {
             as necessary, making this an web evolved over the years, sometimes
             by accident.
           </h6>
-         
+
           <a href="#" className="see-link">
             See All Vehicles <i className="bi bi-arrow-right-circle"></i>
           </a>

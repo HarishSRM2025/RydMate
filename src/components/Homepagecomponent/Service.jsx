@@ -12,7 +12,7 @@ export default function ServicesPage() {
       image: image2,
       features: ["AC Available", "4 Seater", "Luggage Space", "GPS Enabled"],
       price: "Starting from ₹15/km",
-    //   icon: "🚗"
+      //   icon: "🚗"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export default function ServicesPage() {
       image: image4,
       features: ["Budget Friendly", "3 Seater", "City Travel", "Quick Service"],
       price: "Starting from ₹8/km",
-    //   icon: "🛺"
+      //   icon: "🛺"
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export default function ServicesPage() {
       image: image5,
       features: ["Fastest Option", "1 Rider", "Traffic Beat", "Helmet Provided"],
       price: "Starting from ₹5/km",
-    //   icon: "🏍️"
+      //   icon: "🏍️"
     }
   ];
 
@@ -39,31 +39,31 @@ export default function ServicesPage() {
       <div className="container">
         {/* Header Section */}
         <div className="text-center mb-5">
-          <h3 className="display-3 fw-bold mb-3" style={{ color: '#212529',fontSize: '33px' }}>
+          <h3 className="display-3 fw-bold mb-3" style={{ color: '#212529', fontSize: '33px' }}>
             Our Services
           </h3>
-           <div
-          className="mx-auto mb-3"
-          style={{
-            width: "70px",
-            height: "5px",
-            background:
-              "linear-gradient(to right, #dc3545 33%, #fff 33%, #fff 66%, #dc3545 66%)",
-          }}
-        ></div>
-          <p className="lead text-muted" style={{ maxWidth: '700px', margin: '0 auto' ,fontSize: '16px' }}>
+          <div
+            className="mx-auto mb-3"
+            style={{
+              width: "70px",
+              height: "5px",
+              background:
+                "linear-gradient(to right, #dc3545 33%, #fff 33%, #fff 66%, #dc3545 66%)",
+            }}
+          ></div>
+          <p className="lead text-muted" style={{ maxWidth: '700px', margin: '0 auto', fontSize: '16px' }}>
             Choose from our range of transportation options tailored to your needs and budget
           </p>
-          
+
         </div>
 
         {/* Service Cards */}
         <div className="row g-4 mb-5">
           {services.map((service) => (
             <div key={service.id} className="col-lg-4 col-md-6">
-              <div 
+              <div
                 className="card h-100 border-0"
-                style={{ 
+                style={{
                   transition: 'all 0.4s ease',
                   cursor: 'pointer',
                   boxShadow: '0 5px 20px rgba(0,0,0,0.08)',
@@ -80,31 +80,31 @@ export default function ServicesPage() {
               >
                 {/* Image Section */}
                 <div style={{ position: 'relative', overflow: 'hidden', height: '180px' }}>
-                  <img 
-                    src={service.image} 
-                    className="card-img-top" 
+                  <img
+                    src={service.image}
+                    className="card-img-top"
                     alt={service.title}
-                    style={{ 
-                      height: '80%', 
+                    style={{
+                      height: '80%',
                       width: '80%',
                       objectFit: 'cover',
                       transition: 'transform 0.4s ease',
                       alignItems: 'center',
-                        marginTop: '20px',
-                        marginLeft: '40px'
+                      marginTop: '20px',
+                      marginLeft: '40px'
 
                     }}
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                   />
-                  
+
                 </div>
 
                 <div className="card-body p-4">
                   <h3 className="card-title fw-bold mb-3" style={{ color: '#212529' }}>
                     {service.title}
                   </h3>
-                  
+
                   <p className="card-text text-muted mb-4">
                     {service.description}
                   </p>
@@ -114,7 +114,7 @@ export default function ServicesPage() {
                     <div className="row g-2">
                       {service.features.map((feature, index) => (
                         <div key={index} className="col-6">
-                          <div 
+                          <div
                             style={{
                               backgroundColor: '#f8f9fa',
                               padding: '8px 12px',

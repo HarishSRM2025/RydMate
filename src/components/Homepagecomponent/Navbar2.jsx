@@ -8,11 +8,11 @@ const Navbar2 = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark"
-      style={{position:"sticky",top:"0px", backgroundColor: "#1c2b39", padding: "0", height: "60px",zIndex:10 }}
+      style={{ position: "sticky", top: "0px", backgroundColor: "#1c2b39", padding: "0", height: "60px", zIndex: 10 }}
     >
       <div className="container-fluid px-4">
-        
-      
+
+
 
         {/* Navbar Toggler (for mobile) */}
         <button
@@ -26,9 +26,9 @@ const Navbar2 = () => {
         </button>
 
         {/* Navbar Brand (optional) */}
-         <a href="#" className="navbar-brand fw-bold text-danger">
+        <a href="#" className="navbar-brand fw-bold text-danger">
           Rydmate
-        </a> 
+        </a>
 
         {/* Offcanvas Menu */}
         <div
@@ -101,7 +101,7 @@ const Navbar2 = () => {
             whiteSpace: "nowrap",
           }}
         >
-          <a href="https://rydmate-user.netlify.app/" style={{color:"#fff",textDecoration:"none"}}>Join us <i className="bi bi-arrow-right ms-2"></i></a> 
+          <a href="https://rydmate-user.netlify.app/" style={{ color: "#fff", textDecoration: "none" }}>Join us <i className="bi bi-arrow-right ms-2"></i></a>
         </button>
       </div>
 

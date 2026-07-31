@@ -37,7 +37,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding:200px 0 var(--spacing-8xl)  ;
+  padding: 200px 0 var(--spacing-8xl);
   color: var(--white);
   position: relative;
   overflow: hidden;
@@ -55,9 +55,12 @@
 }
 
 @keyframes heroGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.3;
   }
+
   50% {
     opacity: 0.6;
   }
@@ -66,7 +69,7 @@
 /* === Layout === */
 .hero-container {
   max-width: 1300px;
-  margin:  auto !important;
+  margin: auto !important;
   padding: 0 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -188,7 +191,8 @@ form {
   border-color: var(--primary-red);
 }
 
-.form-group i, .form-group svg {
+.form-group i,
+.form-group svg {
   color: var(--primary-red);
   font-size: var(--font-xl);
 }

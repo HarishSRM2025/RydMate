@@ -49,7 +49,7 @@ const Testimonials = () => {
         style={{
           width: "70px",
           height: "5px",
-         
+
         }}
       ></div>
 
@@ -64,7 +64,7 @@ const Testimonials = () => {
         spaceBetween={0}
         breakpoints={{
           0: { slidesPerView: 1 },
-          992: { slidesPerView: 3},
+          992: { slidesPerView: 3 },
         }}
         className="testimonial-slider"
       >
